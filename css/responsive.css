@@ -1,0 +1,14 @@
+@media (max-width: 1250px){
+    .navbar-logo img{
+        width: 200px;
+    }
+    .navbar-menu{
+        gap:10px;
+    }
+}
+@media (max-width: 900px){
+    .col-6{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
