@@ -1,3 +1,5 @@
+//menu
+
 function toggleMenu() {
     document.querySelector('.navbar-menu').classList.toggle('active');
 }
@@ -11,6 +13,20 @@ dropdownLinks.forEach(link => {
             e.preventDefault();
             dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
         }
+    });
+});
+
+//faq
+document.querySelectorAll('.faq-title').forEach(title => {
+    title.addEventListener('click', () => {
+        const faqItem = title.parentElement;
+        faqItem.classList.toggle('open');
+
+        document.querySelectorAll('.faq-item').forEach(item => {
+            if (item !== faqItem) {
+                item.classList.remove('open');
+            }
+        });
     });
 });
 
