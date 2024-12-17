@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Code Effects | Documentation </title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/5acfad1c1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar">
+        <div class="navbar-logo">
+           <a href="index.html"> <img src="images/logo.png" alt="Logo"></a>
+        </div>
+        <ul class="navbar-menu">
+            <li>
+                <a href="#" >Home</a>
+            </li>
+            <li>
+                <a href="#" class="active">Platform <span class="dropdown-icon"><i class="fa-solid fa-chevron-down"></i></span></a>
+                <div class="dropdown">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                </div>
+            </li>
+            <li>
+                <a href="#">Resources <span class="dropdown-icon"><i class="fa-solid fa-chevron-down"></i></span></a>
+                <div class="dropdown">
+                    <a href="#">Docs</a>
+                    <a href="#">API</a>
+                </div>
+            </li>
+            <li>
+                <a href="#">Live Demos <span class="dropdown-icon"><i class="fa-solid fa-chevron-down"></i></span></a>
+                <div class="dropdown">
+					<a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                </div>
+            </li>
+			<li>
+                <a href="#">Licensing</a>
+            </li>
+			<li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+        <a href="#" class="navbar-button for-desktop">Contact Us</a>
+        <div class="navbar-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- .business-rules -->
+     <section class="documentation section-padd-200">
+       <div class="main">
+		
+			<div class="document-area">
+				<div class="document-sidebar">
+					<div class="side-bar">
+						<ul class="side-bar-all">
+							<li><a href="#">What's New in Version 5.0</a></li>
+							<li><a href="#">Get Code Effects Demo Projects</a></li>
+							<li><a href="#">Get Code Effects Downloader</a></li>
+							<li><a href="#">Code Effects Basics</a></li>
+							<ul class="side-list">
+								<li class="active-sidebar"><a href="#">Types of Business Rules</a></li>
+								<li><a href="#">Evaluation Type Rules</a></li>
+								<li><a href="#">Execution Type Rules</a></li>
+							</ul>
+							<li><a href="#">Source Objects</a></li>
+							<ul class="side-list">
+								<li><a href="#">Using a .NET Class as a Source Object</a></li>
+								<li><a href="#">Working with Source XML</a></li>
+								<li><a href="#">Using FlexSource</a></li>
+								<li><a href="#">Autogeneration: Preserving Attributes</a></li>
+							</ul>
+						</ul>
+					</div>
+				</div><!-- document-sidebar -->
+				<div class="document-content">
+					<div class="headind-topic">
+						<div class="doucoment-title">
+							<h2 class="heading-color">Types of Business Rules Supported by Code Effects</h2>
+						</div>
+						<div class="doucoment-button">
+							<div class="gobal-btn">
+								<a href="#">Next Topic <i class="fa-solid fa-chevron-right"></i></a>
+							</div>
+						</div>
+
+					</div><!-- headind-topic -->
+					<p class="douc-text">Code Effects business rules engine supports two types of business rules: <a href="https://www.figma.com/exit?url=https%3A%2F%2Fcodeeffects.com%2FDoc%2FBusiness-Rule-Evaluation-Type%2F">evaluation type</a> and <a href="https://codeeffects.com/Doc/Business-Rule-Execution-Type/">execution type</a>. Even though each type serves a different purpose,<a href="https://codeeffects.com/Doc/Business-Rule-Evaluation/"> evaluation </a> of a rule of any type is done in the same way.<br>
+						Rules of both types can be created using the <a href="https://codeeffects.com/Doc/Business-Rule-Editor/">Rule Editor</a>.<br>
+						You can choose to let rule authors use only evaluation type, or both evaluation and execution type rules, by setting the value of the CodeEffects.Rule.Web. <a href="https://codeeffects.com/Doc/Business-Rule-Editor-Net-Class/">RuleEditor</a>.Mode property to one of the members of the CodeEffects.Rule.Common. <a href="https://codeeffects.com/Doc/Business-Rule-Enumerations/">RuleType</a> enumerator.<br>
+						The evaluation type rules are unique because they can also be used as <a href="https://codeeffects.com/Doc/Business-Rules-Reusable/">reusable rules</a> and as <a href="https://codeeffects.com/Doc/Business-Rule-Data-Filtering/">data filters</a>.</p>
+
+					<div class="gobal-btn douc-btn">
+						<a href="#">Next Topic <i class="fa-solid fa-chevron-right"></i></a>
+					</div>
+					<div class="bar"></div>
+					<div class="cta-community">
+						<p>Post your questions on <a href="https://stackoverflow.com/users/login?ssrc=anon_ask&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2fask%3ftags%3dcodeeffects%2cbusiness-rules%2crule-engine" target="_blank">Stackoverflow</a> and become a part of our growing community</p>
+					</div>
+					<div class="doucment-form">
+						<form action="">
+							<input type="text"  name="" id="" placeholder="Name (Optional)">
+							<textarea name="" id="" placeholder="Comment (URLs are allowed and must start with either http:// or https://)"></textarea>
+							<div class="commment-btn">
+								<button type="submit">Add Comment</button>
+							</div>
+						</form>
+					</div>
+					<div class="bar"></div>
+					<div class="comment-top">
+						<h3>Comments: 8</h3>
+						<select name="" id="">
+							<option value="Display Newest comments first">Display Newest comments first</option>
+							<option value="Oldest comments first">Oldest comments first</option>
+							<option value="Most liked comments">Most liked comments</option>
+						</select>
+					</div>
+					<div class="comment-box white-bg">
+						<div class="comment-heading">
+							<h3 class="heading-color">Anonymous</h3>
+							<p class="text-color">April 26, 2023 06:29 AM</p>
+						</div>
+						<p class="text-color">No, you got it right. Thanks</p>
+					</div><!-- comment-box -->
+
+					<div class="comment-box gray-bg">
+						<div class="comment-heading">
+							<h3 class="heading-color">Sergey</h3>
+							<p class="text-color">April 26, 2023 06:29 AM</p>
+						</div>
+						<p class="text-color">No, you got it right. Thanks</p>
+					</div><!-- comment-box -->
+
+					<div class="comment-box white-bg">
+						<div class="comment-heading">
+							<h3 class="heading-color">Anonymous</h3>
+							<p class="text-color">April 26, 2023 06:29 AM</p>
+						</div>
+						<p class="text-color">No, you got it right. Thanks</p>
+					</div><!-- comment-box -->
+
+					<div class="comment-box white-bg">
+						<div class="comment-heading">
+							<h3 class="heading-color">Anonymous</h3>
+							<p class="text-color">April 26, 2023 06:29 AM</p>
+						</div>
+						<p class="text-color">No, you got it right. Thanks</p>
+					</div><!-- comment-box -->
+
+					<div class="comment-box gray-bg">
+						<div class="comment-heading">
+							<h3 class="heading-color">Sergey</h3>
+							<p class="text-color">April 26, 2023 06:29 AM</p>
+						</div>
+						<p class="text-color">No, you got it right. Thanks</p>
+					</div><!-- comment-box -->
+
+					<div class="comment-box white-bg">
+						<div class="comment-heading">
+							<h3 class="heading-color">Anonymous</h3>
+							<p class="text-color">April 26, 2023 06:29 AM</p>
+						</div>
+						<p class="text-color">No, you got it right. Thanks</p>
+					</div><!-- comment-box -->
+
+					<div class="comment-box white-bg">
+						<div class="comment-heading">
+							<h3 class="heading-color">Anonymous</h3>
+							<p class="text-color">April 26, 2023 06:29 AM</p>
+						</div>
+						<p class="text-color">No, you got it right. Thanks</p>
+					</div><!-- comment-box -->
+					<div class="comment-box white-bg">
+						<div class="comment-heading">
+							<h3 class="heading-color">Anonymous</h3>
+							<p class="text-color">April 26, 2023 06:29 AM</p>
+						</div>
+						<p class="text-color">No, you got it right. Thanks</p>
+					</div><!-- comment-box -->
+
+				</div><!-- document-content -->
+			</div>
+       </div>
+     </section>
+    <!-- .business-rules -->
+
+
+
+
+
+
+	
+
+	<!-- sing-up -->
+	 <div class="sing-up">
+		<div class="main">
+			<div class="sing-up-area">
+				<div class="sing-up-box">
+					<h2 class="heading-color">Sign up for free today</h2>
+					<p class="text-color">Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.</p>
+					
+					<form action="">
+						<input type="email" placeholder="Your email address" required>
+						<button type="submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	 </div>
+	<!-- sing-up -->
+
+	<!-- footer -->
+	<footer>
+		<div class="main">
+			<div class="footer-area">
+				<div class="footer-box footer-box-content">
+					<a href="#"><img src="images/footer-logo.png" alt=""></a>
+					<p class="text-color">Code Effects is the fastest and most intuitive business rules engine used by governments and Fortune 500 companies in mission-critical projects all over the world</p>
+				</div>
+				<div class="footer-box">
+					<h3>Quick Links</h3>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Platform</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>	
+				<div class="footer-box">
+					<h3>Documentation</h3>
+					<ul>
+						<li><a href="#">Code Effect Basics</a></li>
+						<li><a href="#">Creating Business Rules</a></li>
+						<li><a href="#">Elevating Business Rules</a></li>
+					</ul>
+				</div>	
+				<div class="footer-box">
+					<h3>Purchase</h3>
+					<ul>
+						<li><a href="#">License Types</a></li>
+						<li><a href="#">Request Our Price List</a></li>
+						<li><a href="#">Purchase Orders</a></li>
+					</ul>
+				</div>	
+				<div class="footer-box">
+					<h3>Download</h3>
+					<ul>
+						<li><a href="#">Demo Projects</a></li>
+						<li><a href="#">Code Effects Downloader</a></li>
+						
+					</ul>
+				</div>	
+				<div class="footer-box">
+					<h3>Legal</h3>
+					<ul>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">EULA</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Return Policy</a></li>
+					</ul>
+				</div>	
+			</div>
+			<p class="copyright"><span>©</span>copyrights reserved 2024</p>
+		</div>
+	</footer>
+	<!-- footer -->
+
+	<script src="js/main.js"></script>
+</body>
+</html>

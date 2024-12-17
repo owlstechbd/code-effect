@@ -30,3 +30,7 @@ document.querySelectorAll('.faq-title').forEach(title => {
     });
 });
 
+//dowpdown
+
+
+
