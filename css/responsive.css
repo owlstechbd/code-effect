@@ -6,9 +6,212 @@
         gap:10px;
     }
 }
+@media (max-width: 1150px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .hero{
+        padding: 200px 0 100px;
+        height: auto;
+    }
+    .center-title{
+        width: 80%;
+    }
+    .service-card {
+        width: 48.5%;
+        margin-bottom: 30px;
+    }
+    .card-box{
+        height: 790px;
+        padding: 20px;
+    }
+}
+@media (max-width: 1050px){
+    .col-6{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .hero{
+        text-align: center;
+        padding: 150px 0 50px;
+        height: auto;
+    }
+    .hero img {
+        width: 50%;
+    }
+    .hero-btn {
+        justify-content: center;
+    }
+    .center-title {
+        width: 90%;
+    }
+    .coustomer{
+        padding: 20px 0 50px;
+    }
+    .arrow-img{
+        display: none;
+    }
+    .how-work-box{
+        padding: 0 10px;
+    }
+    .col-3 {
+        width: 49%;
+        margin-bottom: 25px;
+    }
+    .card-box {
+        height: 620px;
+        padding: 20px;
+    }
+    .section-padding{
+        padding: 70px 0;
+    }
+    .footer-box-content {
+        width: 40%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer-box img{
+        width: 200px;
+    }
+    .footer-box {
+        width: 30%;
+        margin-bottom: 30px;
+        padding-left: 0px;
+
+    }
+    .copyright {
+        margin-top: 50px;
+    }
+}
 @media (max-width: 900px){
     .col-6{
         width: 100%;
         margin: 10px 0;
+    }
+    .card-box{
+        height: 700px;
+    }
+    footer{
+        padding: 50px 0;
+    }
+}
+@media (max-width: 768px){
+    .hero img {
+        width: 62%;
+        margin-top: 20px;
+    }
+    .center-title {
+        width: 100%;
+    }
+    .main{
+        width: 94%;
+    }
+    .rules-box{
+        padding: 50px 50px 0;
+    }
+    .col-3 {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .how-work-box{
+        margin-bottom: 30px;
+    }
+    .card-box{
+        height: auto;
+    }
+    .cardBox-img img {
+        position: relative;
+        bottom: -24px;
+    }
+    .sing-up-area{
+        padding: 50px;
+    }
+}
+@media (max-width:700px){
+    .footer-box {
+        width: 49%;
+    }
+    .footer-box.footer-box-content {
+        width: 100%;
+    }
+    .footer-box ul li {
+        margin-top: 14px;
+    }
+}
+@media (max-width:600px){
+    .serve-area{
+        padding: 30px;
+    }
+    .service-card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .hero img {
+        width: 100%;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .sing-up-box{
+        width: 100%;
+    }
+    .sing-up-area{
+        padding: 30px ;
+    }
+    .copyright{
+        margin-bottom: 0;
+    }
+    .gobal-btn a{
+        padding: 9px 13px;
+    }
+    .border-btn a{
+        padding: 9px 13px;
+    }
+    .hero-btn .gobal-btn {
+        margin-right: 5px;
+    }
+    .sing-up-box form button {
+        border-radius: 26px;
+        padding: 7px 22px;
+        margin-left: -20px;
+    }
+}
+@media (max-width:434px){
+    .hero-btn .gobal-btn {
+        margin-right: 9px;
+    }
+    .hero-btn{
+        flex-wrap: wrap;
+    }
+    .hero h1 {
+        font-size:35px!important;
+    }
+    .rules-box{
+        padding: 20px 20px 0;
+    }
+    .copyright{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+}
+@media (max-width:376px){
+    .hero-btn .gobal-btn {
+        margin-bottom: 32px;
+    }
+    .footer-box {
+        width: 100%;
+    }
+    .footer-box ul li a{
+        font-size: 14px;
+    }
+    .footer-box ul li {
+        margin-top: 9px;
     }
 }
