@@ -12,7 +12,7 @@
         padding: 30px;
     }
     .features-img2 {
-        padding: 50px 77px 0;
+        padding: 30px 110px 0;
     }
     .business-rules .center-title{
         width: 70%;
@@ -20,6 +20,16 @@
      .server-card .center-title{
         width: 70%;
      }
+     .business-rule .center-title{
+        width: 76%;
+     }
+     @media (max-width: 1525px){
+        .why-title p{
+            width: 90%;
+            margin: 0 auto;
+         }
+     }
+     
 
 }
 @media (max-width: 1180px){
@@ -27,6 +37,9 @@
         width: 49%;
         margin-bottom: 25px;
     }
+    .business-rule .center-title{
+        width: 100%;
+     }
     
 }
 @media (max-width: 1150px){
@@ -90,6 +103,12 @@
     .col-7{
         width: 100%;
     }
+    .features .col-6{
+        width: 100%;
+    }
+    .code-area .col-6{
+        width: 100%;
+    }
     .hero{
         text-align: center;
         padding: 150px 0 50px;
@@ -147,6 +166,11 @@
     }
     .section-padd-200{
         padding: 150px 0 80px;
+    }
+    .sing-up-box p {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 20px 0;
     }
     .mr-100 {
         margin-top: 0px;
@@ -346,9 +370,6 @@
     }
     section.business-rules.section-padd-200 {
         padding: 50px 0;
-    }
-    .checkbox-group{
-        margin-left: 20px;
     }
     .checkbox-group input{
         width: 15px;
