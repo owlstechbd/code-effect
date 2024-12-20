@@ -86,6 +86,9 @@ p{
     display: flex;
     align-items: center;
 }
+.navbar-logo a img{
+    width: 250px;
+}
 
 
 
@@ -169,7 +172,7 @@ p{
 }
 
 /* Responsive */
-@media (max-width: 1150px) {
+@media (max-width: 1155px) {
     .navbar-menu {
         display: none;
         flex-direction: column;
@@ -237,9 +240,11 @@ p{
     width: 100%;
     display: flex;
     align-items: center;
-    background: url(../images/hero.png) center center no-repeat;
+    background: url(../images/hero.png)  left top no-repeat;
     background-size: cover;
     height: 100vh;
+    background-position-y: -140px;
+    background-position-x: 125px;
 }
 .row{
     display: flex;
@@ -252,6 +257,12 @@ p{
 }
 .col-6{
     width: 48%;
+}
+.col-5{
+    width: 40%;
+}
+.col-7{
+    width: 55%;
 }
 .features-btn{
     background: linear-gradient(90deg, rgba(38, 169, 225, 0.05) -0.1%, rgba(63, 108, 255, 0.05) 99.85%);
@@ -295,7 +306,7 @@ p{
     background: transparent; 
     border: 2px solid #3F6CFF; 
     border-radius: 46px; 
-    padding: 10px 20px;
+    padding: 9px 17px;
     font-size: 16px;
     font-weight: bold;
     color: transparent;
@@ -305,15 +316,32 @@ p{
     transition: all 0.3s ease;
 }
 .hero img{
+    max-width: 811.56px;
     width: 100%;
 }
-
+@media (max-width: 1640px){
+    .hero h1 {
+        margin: 15px 0;
+        font-size: 48px;
+    }
+}
+@media (max-width: 1404px){
+    .hero h1 {
+        margin: 15px 0;
+        font-size: 40px;
+    }
+}
 /* coustomer */
 .coustomer{
     padding: 20px 0 100px;
 }
+.center-btn{
+    text-align: center;
+    width: 100%;
+    margin-top:50px ;
+}
 .center-title{
-    width: 60%;
+    width: 72%;
     margin:0 auto;
     text-align: center;
     margin-bottom: 40px;
@@ -328,7 +356,23 @@ p{
 .coustomer img{
     width: 100%;
 }
+@media (max-width: 1524px){
+    .coustomer .center-title{
+        width: 80%;
+    }
+}
+@media (max-width: 1367px){
+    .coustomer .center-title{
+        width: 90%;
+    }
+}
 /* .rules-box */
+.business-rules .center-title{
+   width: 60%;
+}
+.server-card .center-title{
+   width: 50%;
+}
 .rules-box{
     background: linear-gradient(90deg, rgba(38, 169, 225, 0.15) -0.1%, rgba(63, 108, 255, 0.15) 99.85%);
     padding: 50px 100px 0;
@@ -352,6 +396,8 @@ p{
 
 .how-work-box h3{
     margin: 10px 0;
+    font-weight: 500;
+ 
 }
 .for-arrow-img{
     position: relative;
@@ -455,6 +501,8 @@ p{
     margin: 0 auto;
 }
 .sing-up-box p{
+    font-size: 20px;
+    line-height: 35px;
     margin: 20px 0;
 }
 .sing-up-box form{
