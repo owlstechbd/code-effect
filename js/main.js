@@ -30,7 +30,10 @@ document.querySelectorAll('.faq-title').forEach(title => {
     });
 });
 
-//dowpdown
+//video
 
+const lightbox = GLightbox({
+    selector: '.glightbox',
+});
 
 

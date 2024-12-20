@@ -243,8 +243,8 @@ p{
     background: url(../images/hero.png)  left top no-repeat;
     background-size: cover;
     height: 100vh;
-    background-position-y: -140px;
-    background-position-x: 125px;
+    background-position-y: -185px;
+    background-position-x: 79px;
 }
 .row{
     display: flex;
@@ -747,6 +747,7 @@ footer{
 .faq-area{
     padding-bottom: 100px;
 }
+
 .faq-item {
     background: linear-gradient(90deg, rgba(38, 169, 225, 0.15) -0.1%, rgba(63, 108, 255, 0.15) 99.85%);
     border-radius: 8px;
@@ -754,9 +755,8 @@ footer{
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    align-self: start; 
+    align-self: start;
 }
-
 
 .faq-title {
     display: flex;
@@ -768,7 +768,6 @@ footer{
 }
 
 .faq-title img {
-
     transition: transform 0.3s ease;
 }
 
@@ -779,17 +778,17 @@ footer{
 .faq-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
     font-size: 16px;
     color: #7A7D9C;
     margin-top: 10px;
+    padding: 0 0 0 0; /* Remove initial padding */
+    transition: max-height 0.5s ease, padding 0.3s ease;
 }
 
 .faq-item.open .faq-content {
+    max-height: 500px; /* Increase max-height if necessary */
     padding: 10px 0;
-    max-height: 1000px;
 }
-
 .text-center{
     text-align: center;
 }
@@ -1327,9 +1326,8 @@ th, td {
 
 th {
     background: linear-gradient(180deg, #A3A9AF 0%, #6E7181 100%);
-
+    font-weight: 400;
     color: #ffffff;
-    font-weight: bold;
 }
 
 tr:nth-child(even) {
